@@ -36,6 +36,22 @@ html {
 }
 
 /* Style your grid here */
-#grid {
-    
+#grid  
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(6,1fr);
+}
+
+#grid
+{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: repeat(6,1fr);
+}
+#grid
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
 }
